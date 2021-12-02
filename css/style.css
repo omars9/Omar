@@ -1,0 +1,262 @@
+.logo {
+    WIDTH: 268PX;
+    HEIGHT: 33PX;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0px;
+}
+.container{
+    width: 1170px;
+    margin: 40px auto;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    cursor: pointer; 
+}
+.menu-items{
+    margin-right: 20px;
+    font-family: Roboto,arial;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgb(172, 170, 170);
+}
+.drop-menu{
+    display: none;
+    list-style: none;
+    position: absolute;
+    color: rgb(172, 170, 170);
+    margin-left: -135px;
+}
+.menu-items:hover{
+    color: rgb(0, 179,157);
+}
+.menu-items:hover .drop-menu{
+    display: list-item;
+}
+.drop-menu-items:hover{
+    color: rgb(0, 179,157);
+}
+.title{
+    text-align: center;
+    padding-top: 120px;
+}
+.title h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 320;
+    line-height: 50px;
+    color: rgb(0, 179,157);
+}
+.para{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.p1{
+    padding: 40px;
+    color: rgb(105, 105, 105);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.p2{
+    padding: 40px;
+    color: rgb(105, 105, 105);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.for{
+    margin-top: 80px;
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    border-radius: 10px;
+}
+h1{
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+h2{
+    color: white;
+    font-size: 16px;
+}
+.patient{
+    background: #00ccb1;
+    padding: 10px 10px 0;
+    height: 300px;
+    border-radius: 10px;
+   
+}
+.doctors{
+    background: #3d83df;
+    padding: 10px 10px 0;
+    height: 300px;
+    border-radius: 10px;
+}
+.clinic{
+    padding: 10px 10px 0;
+    height: 300px;
+    background: #1b2734;
+    border-radius: 10px;
+}
+.parts{
+    display: flex;
+}
+.part1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.625em;
+    width: 20%;
+    color: rgb(0, 179,157);
+    line-height: 1cm;
+    float: left;
+}
+.part2{
+    margin-top: 50px;
+    padding-left: 15%;
+    font-family: Roboto,arial;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+a{
+    padding: 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgb(172, 170, 170);
+    cursor: pointer;
+}
+a:hover{
+    color: rgb(0, 179,157);
+}
+.party{
+    background-color: rgba(0, 179,157,0.15);
+    height: 15cm;
+    position: relative;
+    width: 1520px;
+    margin-left: -15%;
+}
+.ppp{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4.5cm;
+}
+.pp{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.625em;
+    width: 20%;
+    color: rgb(0, 179,157);
+    line-height: 1cm;
+    float: left;
+}
+.pp2{
+    max-width: 415px;
+    font-size: .875em;
+    font-weight: 400;
+    line-height: 1.7142857143;
+    color: rgb(109, 109, 109);
+}
+.ppp img{
+    width: 35%;
+}
+.ppp img::after{
+    position: absolute;
+}
+.ppp img::after{
+    box-sizing: inherit;
+}
+.party2{
+    display: flex;
+    flex-direction:column;
+    margin-left: 35%;
+}
+.party2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.625em;
+    width: 50%;
+    color: rgb(0, 179,157);
+    line-height: 1cm;
+    float: center;
+}
+.party3 p{
+    padding: 10px;
+    color: rgb(105, 105, 105);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 25px;
+    float: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.pays{
+    display: flex;
+    margin: 3cm;
+    cursor: pointer;
+}
+.pays img{
+    margin: 0.5cm;
+    border-radius: 2% ;
+
+}
+.pays div div{
+    display: flex;
+}
+.pays div button{
+    margin-left: 2.8cm;
+    border-radius: 10%;
+    border: inherit;
+    background-color: #3d83df;
+    font-size: 11px;
+    font-weight: bolder;
+    color: white;
+    font-family: Roboto,Arial,sans-serif;
+}
+.pays div p{
+    margin-left: 1cm;
+    color: #747474;
+    font-size: 20px;
+}
+.pays div button:hover{
+    background-color: #266ecc;
+}
+.fin{
+    display: flex;
+    flex-direction: column;
+}
+.fin p{
+    text-align: center;
+    font-size: 30px;
+}
+.fin button{
+    width: 300px;
+    margin:auto;
+    background-color: #3d83df;
+    color: white;
+    height: 50px;
+    border-style: inherit;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.fin button:hover{
+    background-color: #266ecc;
+}
+footer{
+    text-align: center;
+    font-size: 13px;
+    width: 800px;
+    margin:auto;
+}
